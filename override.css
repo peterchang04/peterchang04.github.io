@@ -1,0 +1,61 @@
+.container.my-auto {
+	max-width: 320px;
+	background-color: #b3ea278f;
+	padding: 10px;
+}
+
+.masthead {
+    padding-top: 15rem;	
+}
+
+.mb-1 {
+	text-shadow: 4px 4px white;
+}
+
+.mb-5 {
+	text-shadow: 2px 2px white;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 1rem!important;
+}
+
+@media (max-width: 812px) {
+	
+	.container.my-auto{
+		height: 170px;
+	}
+	
+	.mb-auto, .my-auto {
+		margin-bottom: 0px !important;
+		margin-top: 0px !important;
+	}
+		
+	.masthead {
+		padding-top: 6rem;
+	}
+	
+}
+
+.h3, h3 {
+    font-size: 1.55rem;
+}
+
+@media (min-width: 992px) {
+	.masthead {
+		padding-left: 250px !important;
+	}
+	
+	.my-auto {
+		margin-bottom: 0px !important;
+		margin-top: 0px !important;
+	}
+	
+	.container.my-auto {
+		max-width: 320px;
+		background-color: #b3ea278f;
+		padding: 10px;
+		height: 210px;
+	}
+}
+
